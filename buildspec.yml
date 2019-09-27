@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - apt-get update
+      - apt-get update -y
       - apt-get install software-properties-common
       - apt-add-repository universe
       - apt-get install python-pip
