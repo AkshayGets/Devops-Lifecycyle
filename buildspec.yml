@@ -5,7 +5,6 @@ phases:
     commands:
       - apt-get update -y
       - apt-get install software-properties-common -y
-      - apt-add-repository universe
       - apt-get install python-pip -y
       - pip install awscli
       - echo Logging in to Amazon ECR...
